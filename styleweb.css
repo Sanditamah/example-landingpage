@@ -80,7 +80,7 @@ header ul li:hover .dropdown li a:hover{
 
 .bghome {
 	height: 40vh;
-	background-image: url('example-landingpage/images/Geopark Ciletuh, Sukabumi.jpg'), url('example-landingpage/images/Hutan De Djawatan, Banyuwangi.jpg');
+	background-image: url('images/Geopark Ciletuh, Sukabumi.jpg'), url('images/Hutan De Djawatan, Banyuwangi.jpg');
 	background-size: 720px;
 	background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
@@ -88,7 +88,7 @@ header ul li:hover .dropdown li a:hover{
 
 .bghomesumatera{
 	height: 40vh;
-	background-image: url('example-landingpage/images/bgsumatera2.jpg'), url('example-landingpage/images/sumatra.jpg');
+	background-image: url('images/bgsumatera2.jpg'), url('images/sumatra.jpg');
 	background-size: 720px;
 	background-position: right top, left center;
     background-repeat: no-repeat, no-repeat;
