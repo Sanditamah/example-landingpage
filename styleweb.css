@@ -80,7 +80,7 @@ header ul li:hover .dropdown li a:hover{
 
 .bghome {
 	height: 40vh;
-	background-image: url('../tugas-web/images/Geopark Ciletuh, Sukabumi.jpg'), url('../tugas-web/images/Hutan De Djawatan, Banyuwangi.jpg');
+	background-image: url('example-landingpage/images/Geopark Ciletuh, Sukabumi.jpg'), url('example-landingpage/images/Hutan De Djawatan, Banyuwangi.jpg');
 	background-size: 720px;
 	background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
@@ -88,7 +88,7 @@ header ul li:hover .dropdown li a:hover{
 
 .bghomesumatera{
 	height: 40vh;
-	background-image: url('../tugas-web/images/bgsumatera2.jpg'), url('../tugas-web/images/sumatra.jpg');
+	background-image: url('example-landingpage/images/bgsumatera2.jpg'), url('example-landingpage/images/sumatra.jpg');
 	background-size: 720px;
 	background-position: right top, left center;
     background-repeat: no-repeat, no-repeat;
@@ -96,7 +96,7 @@ header ul li:hover .dropdown li a:hover{
 
 .bghomentt{ 
 	height: 40vh;
-	background-image: url('../tugas-web/images/Pulau Padar NTT.jpg'), url('../tugas-web/images/ruteng.jpg');
+	background-image: url('example-landingpage/images/Pulau Padar NTT.jpg'), url('example-landingpage/images/ruteng.jpg');
 	background-size: 720px;
 	background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
@@ -104,7 +104,7 @@ header ul li:hover .dropdown li a:hover{
 
 .bghomekalimantan{
 	height: 30vh;
-	background-image: url('../tugas-web/images/bgkalimantan1.jpg'), url('../tugas-web/images/bgkalimantan3.jpg');
+	background-image: url('example-landingpage/images/bgkalimantan1.jpg'), url('example-landingpage/images/bgkalimantan3.jpg');
 	background-size: 720px;
 	background-position: right bottom, left top;
     background-repeat: no-repeat, no-repeat;
@@ -112,7 +112,7 @@ header ul li:hover .dropdown li a:hover{
 
 .bghomepapua{
 	height: 45vh;
-	background-image: url('../tugas-web/images/tamnascenderawasih.jpg'), url('../tugas-web/images/rajaampat.jpg');
+	background-image: url('example-landingpage/images/tamnascenderawasih.jpg'), url('example-landingpage/images/rajaampat.jpg');
 	background-size: 720px;
 	background-position: right bottom, left top;
     background-repeat: no-repeat, no-repeat;
@@ -120,7 +120,7 @@ header ul li:hover .dropdown li a:hover{
 
 .bghomejawa{
 	height: 45vh;
-	background-image: url('../tugas-web/images/ujungkulon.jpg'), url('../tugas-web/images/sungaicigenter.jpg');
+	background-image: url('example-landingpage/images/ujungkulon.jpg'), url('example-landingpage/images/sungaicigenter.jpg');
 	background-size: 720px;
 	background-position: right bottom, left top;
     background-repeat: no-repeat, no-repeat;
