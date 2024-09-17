@@ -1,0 +1,266 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Courier New;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header h2{
+	float: left;
+	padding: 20px 0;
+	color: #6d8b74;
+}
+
+header ul{
+	float: right;
+}
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	display: inline-block;
+	padding: 25px 20px;
+}
+
+header ul li a:hover{
+	display: block;
+    color: #fff;
+    background: #6d8b74;
+}
+
+header ul.dropdown{
+	display: none;
+}
+
+header ul li:hover .dropdown{
+	display: block;
+    background: #6d8b74;
+    position: absolute;
+    padding: 10px;
+}
+
+header ul li:hover .dropdown li{
+	display: block;
+}
+
+header ul li:hover .dropdown li a{
+    padding: 10px;
+	color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+header ul li:hover .dropdown li a:hover{
+	color: #fff;
+    box-shadow: inset 0px 0px 5px #EFEAD8;
+}
+
+.active {
+	background-color: #6d8b74;
+	color: #fff;
+}
+
+.bghome {
+	height: 40vh;
+	background-image: url('../tugas-web/images/Geopark Ciletuh, Sukabumi.jpg'), url('../tugas-web/images/Hutan De Djawatan, Banyuwangi.jpg');
+	background-size: 720px;
+	background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+.bghomesumatera{
+	height: 40vh;
+	background-image: url('../tugas-web/images/bgsumatera2.jpg'), url('../tugas-web/images/sumatra.jpg');
+	background-size: 720px;
+	background-position: right top, left center;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.bghomentt{ 
+	height: 40vh;
+	background-image: url('../tugas-web/images/Pulau Padar NTT.jpg'), url('../tugas-web/images/ruteng.jpg');
+	background-size: 720px;
+	background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+.bghomekalimantan{
+	height: 30vh;
+	background-image: url('../tugas-web/images/bgkalimantan1.jpg'), url('../tugas-web/images/bgkalimantan3.jpg');
+	background-size: 720px;
+	background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.bghomepapua{
+	height: 45vh;
+	background-image: url('../tugas-web/images/tamnascenderawasih.jpg'), url('../tugas-web/images/rajaampat.jpg');
+	background-size: 720px;
+	background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.bghomejawa{
+	height: 45vh;
+	background-image: url('../tugas-web/images/ujungkulon.jpg'), url('../tugas-web/images/sungaicigenter.jpg');
+	background-size: 720px;
+	background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+
+section{
+	padding: 50px 0;
+}
+
+section  h1{
+	text-align: left;
+	padding: 20px 0px;
+	color: #6d8b74;
+}
+
+section  h2{
+	text-align: left;
+	padding: 20px 0px;
+	color: #6d8b74;
+}
+
+.isi h1{
+	font-family: Bebas Neue;
+	font-size: 40pt;
+}
+.isi h2{
+	font-family: Bebas Neue;
+	font-size: 25pt;
+}
+
+.isi p{
+	color: #6d8b74;
+	word-spacing: 2px;
+	line-height: 25px
+}
+
+footer{
+	padding: 20px 0px;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+
+.label{
+	background-color: #6d8b74;
+	color: #fff;
+}
+
+.label p{
+	font-size: 20px;
+}
+
+.form{
+	font-family: Courier New;
+	color: #6d8b74;
+}
+
+.form label{
+	display: block;
+	margin: 2rem 0 0.5rem 0;
+}
+
+.form input, textarea{
+	width: 100%;
+	padding: 1rem 0.8rem;
+	border: 1px solid rgb(0, 0, 0, 0.2);
+	outline: 0;
+	transition: border 0.15s;
+}
+
+.submit{
+	background: #6d8b74;
+	color: #fff;
+	font-weight: bold;
+	margin-top: 1rem;
+	padding: 1rem 1.5rem;
+	border: none;
+	cursor: pointer;
+}
+
+.submit:hover{
+	background: #EFEAD8;
+	color: #6d8b74;
+}
+
+.form input:focus,textarea:focus{
+	border: 2px solid #6d8b74;
+}
+
+@media screen and (max-width: 720px){
+	.container{
+		width: 90%;
+	}
+	header h2, h1{
+		text-align: center;
+		float: none;
+	}
+	header ul{
+		text-align: center;
+		float: none;
+	}
+	section h1, h2{
+		text-align: center;
+	}
+}
+
+header ul li input{
+	position: relative;
+	width: 40px;
+	height:20px;
+	appearance: none;
+	background-color: #6d8b74;
+	outline: none;
+	border-radius: 10px;
+	transition: .5s ease;
+	cursor: pointer;
+}
+
+header ul li input:checked{
+	background-color: #3664ff;
+}
+
+header ul li input:before{
+	content: '';
+	position:absolute;
+	width: 16px;
+	height: 16px;
+	background-color: #fff;
+	border-radius: 50%;
+	top: 2px;
+	left: 2px;
+	transition: .5s ease;
+}
+
+header ul li input:checked::before{
+	transform: translateX(20px);
+
+}
+
+.dark{
+	background-color: #3f3f3f;
+	color: #fff;
+}
